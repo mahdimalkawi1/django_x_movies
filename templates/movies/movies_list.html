@@ -1,0 +1,16 @@
+{% extends '_base.html'%}
+
+
+{% block content %}
+
+<a href="{% url 'movies_create' %}">- add new movise</a>
+<ul>
+  {% for movies in object_list %}
+  <li>
+    <a href="{% url 'movies_detail' movies.pk %}">{{ movies.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+
+{% endblock content %}

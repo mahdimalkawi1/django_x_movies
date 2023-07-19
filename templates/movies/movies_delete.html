@@ -1,0 +1,12 @@
+{% extends '_base.html'%}
+{% block title %} delete movie {{movie.title}}{% endblock%}
+
+{% block content%}
+<h1>{{movie.title}} delete</h1>
+<h2>Are you Sure you Want To Delete {{movie.title}}?! </h2>
+<form method="post">
+{% csrf_token %}
+
+<input type="submit" value="Yes">
+</form>
+{% endblock %}
