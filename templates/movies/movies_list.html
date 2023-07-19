@@ -2,7 +2,7 @@
 
 
 {% block content %}
-
+<h1>{{movie.title}} Detail</h1>
 <a href="{% url 'movies_create' %}">- add new movise</a>
 <ul>
   {% for movies in object_list %}
