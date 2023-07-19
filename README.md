@@ -1,4 +1,16 @@
-> A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
+# DjangoX
+
+
+### Author: Mahdi Malkawi
+#### How to initialize/run your application (where applicable)
+to run the app:
+- pip install django
+- python manage.py runserver
+
+
+
+
+<!-- >A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 
 https://github.com/wsvincent/djangox/assets/766418/a73ea730-a7b4-4e53-bf51-aa68f6816d6a
@@ -115,4 +127,4 @@ Give a ⭐️  if this project helped you!
 
 ## License
 
-[The MIT License](LICENSE)
+[The MIT License](LICENSE) -->

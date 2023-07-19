@@ -1,0 +1,12 @@
+{% extends '_base.html' %}
+{% block content %}
+
+<h1 class="movie-list-title">Create Movie List</h1>
+<form method="post">
+    {% csrf_token %}
+<table>
+    {{ form.as_table }}
+</table>
+<input type="submit">
+</form>
+ {% endblock %}
